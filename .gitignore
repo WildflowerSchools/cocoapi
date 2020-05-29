@@ -14,3 +14,10 @@ PythonAPI/pycocotools/_mask.so
 PythonAPI/pycocotools/coco.pyc
 PythonAPI/pycocotools/cocoeval.pyc
 PythonAPI/pycocotools/mask.pyc
+
+.idea
+PythonAPI/.eggs/
+PythonAPI/.python-version
+PythonAPI/build/
+PythonAPI/dist/
+PythonAPI/*.egg-info/
