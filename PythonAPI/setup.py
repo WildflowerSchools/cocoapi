@@ -7,7 +7,7 @@ install_requires = [
     'setuptools>=18.0',
     'cython>=0.27.3',
     'matplotlib>=2.1.0',
-    'numpy>=1.18.4'
+    'numpy==1.17.5'
 ]
 
 dist.Distribution().fetch_build_eggs(install_requires)
