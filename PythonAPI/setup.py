@@ -7,7 +7,7 @@ install_requires = [
     'setuptools>=18.0',
     'cython>=0.27.3',
     'matplotlib>=2.1.0',
-    'numpy==1.17.5'
+    'numpy>=1.17.5'
 ]
 
 dist.Distribution().fetch_build_eggs(install_requires)
@@ -28,7 +28,7 @@ setup(
     include_package_data=True,
     install_requires=install_requires,
     description="Forked version of the cocodataset's pycocotools modified to install from pypi without manual intervention",
-    version='2.0.1.2',
+    version='2.0.1.3',
     url='https://github.com/WildflowerSchools/cocoapi',
     author='Piotr Dollar, Tsung-Yi Lin, Benjamin Jaffe-Talberg',
     author_email='ben.talberg@wildflowerschools.org',
